@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:src="@drawable/image_meter"
+        android:id="@+id/image_view"
+        android:layout_width="300dp"
+        android:layout_height="130dp" />
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/editText_inches"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Inches"
+        android:textAlignment="center"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/button_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"/>
+
+    <TextView
+        android:layout_margin="15dp"
+        android:id="@+id/textView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
